@@ -1,9 +1,9 @@
-import React from "react";
+import "./styles.css";
 
 const App = () => {
   return (
-    <div>
-      <h1> React Starter template</h1>
+    <div className="app">
+      <h1>React Starter template</h1>
       <ul>
         <li>Typescript</li>
         <li>Webpack 5</li>
