@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #1890ff;
+}
+
 body {
   background-color: #fafafa;
 }
@@ -16,4 +20,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+h1 {
+  color: var(--primary-color);
 }
