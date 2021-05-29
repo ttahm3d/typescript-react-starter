@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         test: /\.(svg|ttf|eot|ttf|woff(2)?)$/i,
-        type: "asset/resource",
+        type: "asset/inline",
       },
     ],
   },
