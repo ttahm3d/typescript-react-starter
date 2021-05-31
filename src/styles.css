@@ -3,28 +3,28 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-  --primary-color: #1890ff;
+	--primary-color: #1890ff;
 }
 
 body {
-  background-color: #fafafa;
-  font-family: "raleway", sans-serif;
+	background-color: #fafafa;
+	font-family: "raleway", sans-serif;
 }
 
 .app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
 
 h1 {
-  color: var(--primary-color);
+	color: var(--primary-color);
 }
